@@ -27,4 +27,14 @@ public class FtpInfo {
      * Ftp 服务密码
      */
     private String password;
+
+    @Override
+    public String toString() {
+        return "FtpInfo{" +
+                "ip='" + ip + '\'' +
+                ", port=" + port +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
